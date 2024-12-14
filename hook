@@ -1,0 +1,9 @@
+echo "Running code checks..."
+flake8 .
+if [ $? -ne 0 ]; then
+    echo "Linting failed. Fix errors before committing."
+    exit 1
+fi
+
+# Other checks can go here
+echo "All checks passed!"
