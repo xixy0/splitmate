@@ -1,0 +1,11 @@
+# Ignore all `.log` files
+*.log
+
+# Ignore a specific folder
+/temp/
+
+# Ignore files with specific names
+secrets.txt
+
+# Ignore all `.env` files
+*.env
